@@ -21,11 +21,11 @@ group :development, :test do
 	gem 'spring'
 	gem 'rspec-rails'
 	gem 'jasmine'
+	gem 'selenium-webdriver'
+	gem 'capybara'
 end
 
 group :test do
-	gem 'selenium-webdriver'
-	gem 'capybara'
 end
 
 group :production do
